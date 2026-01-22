@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #721d94;
+    background-image:  
+    url("images/starss1.png"),
+    url("images/starss1.png");
+
+    background-repeat: no-repeat;
+    background-size:  
+    650px 700px, 
+    650px 700px;
+    
+    background-position: 
+    left,
+    right;
+
+    color: white;
+    padding: 8px 2px;
+    text-align: center;
+}
+
+
+.header-title {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px; 
+   
+}
+
+.header-title h1 {
+     font-family: "Play", sans-serif;
+}
+
+
+.team-logo {
+    width: 250px;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    background-color: #57156B;
+    padding: 10px;
+    text-align: center;
+    font-family: "Play", sans-serif;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 40px 20px;
+    background: #57156B;
+    border-radius: 8px;
+}
+
+/* Cards */
+.card {
+    background-color: #eef2f5;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e2a38;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Card container for side-by-side layout */
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Make cards share space */
+.card-container .card {
+    flex: 1;
+    min-width: 250px;
+}
+
+
