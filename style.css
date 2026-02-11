@@ -1,14 +1,28 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #ffffff;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  
+    
+    background-color: #F7ECFF;  
     color: #333;
+
+
+
+  background-image: url("images/starss1.png");
+  background-repeat: repeat;
+  background-position: top left;
+
+  background-size: 360px auto;   
 }
+
 
 /* Header */
 header {
-    background-color: #721d94;
+    
+    
+    background-color: #721D94;   
+    color: #ffffff;
     background-image:  
     url("images/starss1.png"),
     url("images/starss1.png");
@@ -22,7 +36,7 @@ header {
     left,
     right;
 
-    color: white;
+    
     padding: 8px 2px;
     text-align: center;
 }
@@ -48,10 +62,21 @@ header {
 
 /* Navigation */
 nav {
-    background-color: #57156B;
+
+    position: sticky;
+    top: 0;            
+    z-index: 999;  
+
+
+    background-color: #57156B;  
+    color: #ffffff;
+
     padding: 10px;
     text-align: center;
     font-family: "Play", sans-serif;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    
 }
 
 nav a {
@@ -61,22 +86,32 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
+
     text-decoration: underline;
 }
 
 /* Sections */
 section {
+    scroll-margin-top: 80px;
+
     max-width: 1000px;
     margin: 20px auto;
     padding: 40px 20px;
     background: #57156B;
+
+    color: #ffffff;
+
     border-radius: 8px;
 }
 
 /* Cards */
 .card {
-    background-color: #eef2f5;
+
+    background-color: #FFFFFF;  
+    color: #333333;
+
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 20px;
@@ -91,8 +126,10 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1e2a38;
-    color: white;
+    
+    background-color: #57156B; 
+    color: #ffffff;
+
     margin-top: 30px;
 }
 
@@ -109,4 +146,29 @@ footer {
     min-width: 250px;
 }
 
+
+.robot-gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.robot-gallery img {
+  width: 45%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.robot-gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+
+    
+    
 

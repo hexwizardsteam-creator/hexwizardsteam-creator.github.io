@@ -30,73 +30,400 @@
 <nav>
     <a href="#team">Η ομάδα μας</a>
     <a href="#mission">Το ρομπότ μας</a>
-    <a href="#outreach">Πως το κάναμε</a>
+    <a href="#outreach">Στάδια Κατασκευής</a>
+               
+    <a href="#talks">Ομιλίες</a>
+
     <a href="#impact">Ποιοι μας βοήθησαν</a>
-    <a href="#media">Χορηγοί</a>
+    <a href="#media">Social media</a>
 </nav>
 
 <section id="team">
     <h2>Η ομάδα μας</h2>
     <div class="card">
         <p>
-            -
-        </p>
-        <p>
-            <strong>-</strong> -
-        </p>
+
+     Η ομάδα μας αποτελείται από 10 μαθητές που καλύπτουν όλο το ηλικιακό εύρος
+      από πρώτη γυμνασίου έως τρίτη λυκείου. Μας ενώνει η θέληση για μάθηση,
+      η αγάπη για τον προγραμματισμό, η δημιουργικότητα και ο κοινός μας στόχος
+      για συμμετοχή στον διαγωνισμό.
+    </p>
+
+    <h3>Τα μέλη</h3>
+    <ul>
+      <li>Μιχάλης</li>
+      <li>Γιώργος Β.</li>
+      <li>Κωνσταντίνος Β.</li>
+      <li>Γιώργος Ζ.</li>
+      <li>Κρυστάλλη</li>
+      <li>Μανώλης</li>
+      <li>Κωνσταντίνος Ν.</li>
+      <li>Ιωάννα</li>
+      <li>Μάγδα</li>
+      <li>Ειρήνη</li>
+    </ul>
+
+    <p>
+      Μέσα από τις συναντήσεις μας ολοκληρώθηκαν ο μηχανολογικός σχεδιασμός,
+      ο προγραμματισμός του ρομπότ και η κατασκευή, καθώς και οι απαραίτητες
+      δοκιμές και βελτιώσεις.
+    </p>
+
+    <h3>Υποομάδες</h3>
+    <ul>
+      <li>Software Team</li>
+      <li>Hardware Team</li>
+      <li>Sustainability Team</li>
+      <li>Outreach Team</li>
+    </ul>
+
+   </p>
     </div>
 </section>
 
+
 <section id="mission">
-    <h2>Το ρομπότ μας</h2>
-    <div class="card">
-        <p>
-            -
-        </p>
-    </div>
+  <h2>Το ρομπότ μας</h2>
+
+  <div class="card">
+    <p>
+      Καθώς αυτή είναι η πρώτη μας χρονιά συμμετοχής και πολλοί μαθητές δεν είχαν
+      προηγούμενη εμπειρία, καταφέραμε να δημιουργήσουμε ένα πλήρως λειτουργικό
+      ρομπότ, τον <strong>Βρασίδα</strong>.
+    </p>
+
+
+
+<div class="robot-gallery">
+  <img src="images/robot.jpg">
+  <img src="images/robot2.jpg">
+</div>
+
+
+
+    <p>
+      Το ρομπότ μας, ο Βρασίδας, θα διαγωνιστεί στο <a href="https://firsttechchallenge.gr/en/" target="_blank">
+      <strong>FTC (FIRST Tech Challenge)</strong> </a>στη Θεσσαλονίκη τον Μάρτιο 2026.
+      Η αποστολή του είναι να συλλέγει μωβ και πράσινες μπάλες από το έδαφος
+      και να τις τοποθετεί σε ένα καλάθι με τη σωστή σειρά.
+    </p>
+
+    <p>
+      Πέρα από την κατασκευή και τον προγραμματισμό του, αποφασίσαμε
+      ομαδικά το όνομά του μέσω ψηφοφορίας, όπου κάθε μέλος είχε την
+      ευκαιρία να εκφράσει τη γνώμη του.
+    </p>
+  </div>
 </section>
 
 <section id="outreach">
-    <h2>Πως το κάναμε</h2>
+  <h2>Στάδια Κατασκευής</h2>
 
-    <div class="card-container">
-        <div class="card">
-            <h3>Hardware</h3>
-            <p>
-                -
-            </p>
-        </div>
+  <div class="card" style="padding-bottom: 30px;">
 
-        <div class="card">
-            <h3>Software</h3>
-            <p>
-                -
-            </p>
-        </div>
+    
+    <style>
+      
+      #outreach .step-row {
+        display: grid;
+        grid-template-columns: 1.4fr 0.6fr; 
+        gap: 24px;
+        align-items: center;
+        margin-bottom: 28px;
+      }
 
-        <div class="card">
-            <h3>Outreach</h3>
-            <p>
-                -
-            </p>
-        </div>
+      
+      #outreach .step-row.alt {
+        grid-template-columns: 0.6fr 1.4fr; 
+      }
+
+      
+      #outreach .step-row img {
+        width: 100%;
+        height: auto;
+        max-width: 320px; 
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        transition: transform .25s ease;
+        display: block;
+        margin: 0 auto; 
+      }
+      #outreach .step-row img:hover {
+        transform: scale(1.02);
+      }
+
+      
+      #outreach .step-text p {
+        margin: 0;
+      }
+      #outreach .step-title {
+        margin: 0 0 8px 0;
+        font-weight: 700;
+      }
+
+      
+      @media (max-width: 820px) {
+        #outreach .step-row,
+        #outreach .step-row.alt {
+          grid-template-columns: 1fr;
+        }
+        #outreach .step-row img {
+          max-width: 100%;
+          margin: 0 auto;
+        }
+      }
+    </style>
+
+     
+    <div class="step-row">
+      <div class="step-text">
+        <p class="step-title"> Τα πρώτα βήματα</p>
+        <p>
+          Ακολουθήσαμε τις οδηγίες της REV για το starterbot, δημιουργώντας σταθερό αρχικό σκελετό
+          και θέτοντας τις βάσεις για ό,τι θα ακολουθούσε.
+        </p>
+      </div>
+      <div class="step-img">
+        <img src="images/r1.jpg" alt="Βήμα 1 – Πρώτα βήματα κατασκευής">
+      </div>
     </div>
+
+    
+    <div class="step-row alt">
+      <div class="step-img">
+        <img src="images/r3.jpg" alt="Βήμα 2 – Τροποποιήσεις και λεπτομέρειες">
+      </div>
+      <div class="step-text">
+        <p class="step-title"> Στη συνέχεια…</p>
+        <p>
+          Αποσυναρμολογήσαμε τμήματα και τροποποιήσαμε το σχέδιο στο Onshape, προσθέτοντας δικούς μας
+          μηχανισμούς και αφαιρώντας τα περιττά. Βιδώματα, ευθυγραμμίσεις, μικροδιορθώσεις.
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="step-row">
+      <div class="step-text">
+        <p class="step-title"> Ο Βρασίδας ζωντανεύει</p>
+        <p>
+          Προσθέσαμε μηχανισμούς, ηλεκτρονικά και υποσυστήματα. Το ρομπότ απέκτησε κίνηση,
+          δύναμη και χαρακτήρα, προσαρμοσμένο στις ανάγκες της ομάδας μας.
+        </p>
+      </div>
+      <div class="step-img">
+        <img src="images/r4.jpg" alt="Βήμα 3 – Το ρομπότ αποκτά λειτουργικότητα">
+      </div>
+    </div>
+
+    
+    <div class="step-row alt">
+      <div class="step-img">
+        <img src="images/r2.jpg" alt="Βήμα 4 – Software και αισθητήρες">
+      </div>
+      <div class="step-text">
+        <p class="step-title"> Software Team</p>
+        <p>
+          Το Software Team προγραμμάτισε τον Βρασίδα ώστε να «καταλαβαίνει» το περιβάλλον —
+          ρύθμιση αισθητήρων, βελτίωση αλγορίθμων και ακριβείς κινήσεις σε κάθε αποστολή.
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="step-row">
+      <div class="step-text">
+        <p class="step-title"> Γιορτινή φωτογράφιση με στυλ!</p>
+        <p>
+          Ο Βρασίδας έτοιμος για γιορτινή φωτογράφιση
+        </p>
+      </div>
+      <div class="step-img">
+        <img src="images/r5.jpg" alt="Βήμα 5 – Γιορτινή φωτογράφιση του ρομπότ">
+      </div>
+    </div>
+
+  </div>
 </section>
+
+
+
+
+
+<section id="talks">
+  <h2>Ομιλίες</h2>
+
+  <div class="card">
+    <p>
+     Καθόλη την διάρκεια κατασκευής του ρομπότ είχαμε την ευκαιρία 
+     να συμβουλευτούμε κάποιους καθηγητές του Πανεπιστημίου Κρήτης.
+    </p>
+
+<ol>
+      <li>Δρ. Δημήτρης Τζεράνης</li>
+      <li>Δρ. Μάριος Πιτικάκης</li>
+    
+  
+    </ol>
+
+<div class="robot-gallery">
+  <img src="images/omilies1.png">
+  <img src="images/omilies2.jpg">
+</div>
+
+
+
+    <p>
+     Στις αρχές του Φεβρουαρίου επισκεφτήκαμε το S.T.E.A.M. Lab. Κατά την επίσκεψή μας
+      πραγματοποιήσαμε μια διαδραστική παρουσίαση προσαρμοσμένη στην ηλικία των παιδιών,
+      όπου παρουσιάσαμε το ρομπότ μας και εξηγήσαμε με απλό τρόπο τη λειτουργία του, 
+      τον ρόλο του στον διαγωνισμό FTC και τους
+      βασικούς τομείς με τους οποίους ασχολείται η ομάδα μας.
+    </p>
+
+    <div class="robot-gallery">
+  <img src="images/omilies3.jpg">
+  <img src="images/omilies4.jpg">
+</div>
+  </div>
+</section>
+
+
 
 
 <section id="impact">
-    <h2>Ποιοι μας βοήθησαν</h2>
-    <div class="card">
-        -
+  <h2>Ποιοι μας βοήθησαν</h2>
+
+  <div class="card" style="padding: 20px; border-radius: 12px;">
+  
+    <div style="display:grid; grid-template-columns: 1fr 360px; gap: 24px; align-items:start;">
+      
+      <div>
+        <h3 style="margin-top:0;">Χορηγοί</h3>
+        <p>
+          Ευχαριστούμε θερμά τους χορηγούς μας για την ουσιαστική υποστήριξη:
+          τον εξοπλισμό που λάβαμε για την κατασκευή του ρομπότ, καθώς και
+          την κάλυψη βασικών εξόδων συμμετοχής στον διαγωνισμό.
+        </p>
+        <ul>
+          <li><strong><a href="https://ots.gr/" target="_blank">O.T.S</strong></a> – Εξοπλισμός &amp; υποστήριξη</li>
+          <li><a href="https://www.ics.forth.gr/about-ics?lang=el" target="_blank"><strong>ΙΤΕ – Ινστιτούτο Πληροφορικής</strong></a> – Κάλυψη εγγραφής</li>
+          <li><a href="https://www.desepe.gr/" target="_blank"><strong>Δ.Ε.Σ.Ε.Π.Ε</strong> </a>– Οικονομική ενίσχυση (λειτουργικά, μπλουζάκια)</li>
+        </ul>
+      </div>
+
+      
+      <div style="justify-self:end;">
+<div class="robot-gallery">       
+<img src="images/banner2.jpg"
+             alt="Χορηγοί Hex Wizards"
+             style="width:100%; max-width:360px; height:auto; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.1);">
+
+      </div> 
+            </div>
     </div>
+  </div>
+
+  <div class="card" style="padding: 20px; border-radius: 12px; margin-top: 16px;">
+    
+    <div style="display:grid; grid-template-columns: 1fr 360px; gap: 24px; align-items:start;">
+      
+      <div>
+        <h3 style="margin-top:0;">Δωροθέτες</h3>
+        <p>Ένα μεγάλο «ευχαριστώ» σε όλες τις επιχειρήσεις που μας στήριξαν με δώρα και παροχές.</p>
+        <ul style="columns: 2; column-gap: 24px; margin-top: 10px;">
+          <li><a href="https://chrysostomos-jewels.com/" target="_blank">Chrysostomos: Jewels for men</a></li>
+          <li><a href="https://www.dustandcream.gr/el/storelocator/dustcream-irakleio/" target="_blank">Dust and Cream</a></li>
+          <li><a href="https://www.facebook.com/tzorakoleftherakispharmacy/" target="_blank">Φαρμακείο Τζωρακοελευθεράκης</a></li>
+          <li><a href="https://www.facebook.com/armaostelecom/?locale=el_GR" target="_blank">Armaos: Used iPhone &amp; Samsung</a></li>
+          <li><a href="https://winoptica.gr/" target="_blank">Οπτικά Δουλουφάκης</a></li>
+          <li><a href="https://www.topazi.gr/" target="_blank">Topazi</a></li>
+          <li><a href="https://www.facebook.com/Diskorama/" target="_blank">Δισκόραμα</a></li>
+          <li><a href="https://entermusic.gr/" target="_blank">Entermusic</a></li>
+          <li><a href="https://www.themrgadget.gr/katastimata/articles/89/" target="_blank">Mr Gadget</a></li>
+          <li><a href="https://www.bacharia.gr/" target="_blank">Μπαχάρια και Βότανα</a></li>
+          <li><a href="https://steamlab.edu.gr/" target="_blank">STEAM Lab</a></li>
+          <li><a href="https://heraklion.themindtrap.com/" target="_blank">Mindtrap</a></li>
+          <li><a href="https://www.texnopolis.net/" target="_blank">Τεχνόπολις - Βιτσέντζος Κορνάρος - Cine Studio </a></li>
+          <li><a href="https://www.instagram.com/koulouvaxata.pottery?igsh=MW9rdjBwM3J0Y3o3ZQ%3D%3D" target="_blank">Κουλουβάχατα Pottery</a></li>
+          <li><a href="https://www.facebook.com/p/Kou%CE%BB-Microbakery-61572888580654/" target="_blank">Κouλ Μicrobakery</a></li>
+          <li><a href="https://www.instagram.com/tamaris_shop_heraklion/" target="_blank">Tamaris Store Heraklion</a></li>
+          <li><a href="https://https://matimati.gr" target="_blank">Οπτικά Mati Mati Ηράκλειο</a></li>
+          <li><a href="https://babyeshop.gr/" target="_blank">Babyshop</a></li>
+          <li><a href="https://domusanimalium.gr/" target="_blank">Domus Animalium Pet Shop</a></li>
+          <li><a href="https://threadjar.gr/" target="_blank">Thread Jar</a></li>
+          <li><a href="https://mnd.gr/" target="_blank">md Exclusive Hair Salon</a></li>
+          <li><a href="https://www.facebook.com/panteliskampaxis/?locale=el_GR" target="_blank">Βιβλιοπωλείο Ανθολόγιο</a></li>
+          <li><a href="https://https://bouketompalonia.gr/" target="_blank"> ΜΠΑΛΟΝΙΑ #FIREWORKS</a></li>
+        </ul>
+      </div>
+
+     
+      <div style="justify-self:end;">
+ <div class="robot-gallery">        
+<img src="images/banner1.png"
+             alt="Δωροθέτες Hex Wizards"
+             style="width:100%; max-width:360px; height:auto; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.1); margin-top:50px;">
+ </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <style>
+    @media (max-width: 820px) {
+      #impact .card > div {
+        grid-template-columns: 1fr !important; 
+      }
+      #impact .card img {
+        width: 100% !important;
+        max-width: 520px !important;
+        display: block;
+        margin: 8px auto 0;
+      }
+      #impact ul[style*="columns"] { columns: 1 !important; }
+    }
+  </style>
 </section>
 
 <section id="media">
-    <h2>Social Media</h2>
-    <div class="card">
-        <p>-</p>
-    </div>
+  <h2 style="margin-bottom: 12px;">Social Media</h2>
+
+  <div class="card" style="border-radius: 12px; padding: 16px;">
+       
+
+<div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+
+  
+  <a href="https://instagram.com/hexwizards_ftc" target="_blank" rel="noopener"
+       style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+       
+    <img src="images/instagram.jpg" 
+         alt="Instagram" 
+         style="width:40px; height:40px; border-radius:8px;">
+         
+    <span style="font-size: 1.1em; font-weight: 600; color:#57156B;">
+      Ακολουθήστε μας στο Instagram!
+    </span>
+  </a>
+
+  
+  <a href="https://mailto:hexwizards.team@gmail.com" target="_blank" rel="noopener"
+       style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+       
+    <img src="images/gmail.png"
+         alt="Email"
+         style="width:40px; height:40px; border-radius:8px;">
+         
+    <span style="font-size: 1.1em; font-weight: 600; color:#57156B;">
+      Στείλτε μας email!
+    </span>
+  </a>
+
+</div>
+
 </section>
+
 
 <footer>
     <p>-</p>
