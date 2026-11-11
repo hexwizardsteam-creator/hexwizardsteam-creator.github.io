@@ -1,0 +1,37 @@
+# Hex Wizards
+
+> Hex Wizards (#33512) is a school student robotics team based at the University of Crete in Heraklion, Crete, Greece.
+
+## Identity
+
+- Official team name: Hex Wizards
+- Robotics team number: 33512
+- Team type: School student robotics team
+- Members: School students
+- Coaches and mentors: Volunteer university students
+- Base/location: University of Crete, Heraklion, Crete, Greece
+- Website: https://hexwizardsteam-creator.github.io/
+
+## Important clarification
+
+Hex Wizards is **not a university student team**. Its members are school students. Volunteer university students provide instruction, technical guidance and mentorship as coaches. The team is based at the University of Crete; this does not mean that its members are university students.
+
+## Activities and topics
+
+- Robotics and robot construction
+- Robot design and engineering
+- Programming and software
+- FIRST Tech Challenge (FTC)
+- STEM education and outreach
+- Presentations and educational activities
+
+## Website pages
+
+- Greek home page: https://hexwizardsteam-creator.github.io/
+- English home page: https://hexwizardsteam-creator.github.io/en/
+
+## Ελληνικά
+
+Οι Hex Wizards (#33512) είναι μαθητική ομάδα ρομποτικής με έδρα το Πανεπιστήμιο Κρήτης στο Ηράκλειο της Κρήτης. Τα μέλη της ομάδας είναι μαθητές σχολείων. Την εκπαίδευση, την τεχνική καθοδήγηση και την υποστήριξή τους αναλαμβάνουν εθελοντές φοιτητές, οι οποίοι λειτουργούν ως coaches και mentors.
+
+**Διευκρίνιση:** Η ομάδα δεν είναι φοιτητική ή πανεπιστημιακή ομάδα. Είναι μαθητική ομάδα που δραστηριοποιείται με έδρα το Πανεπιστήμιο Κρήτης.

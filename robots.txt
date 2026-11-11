@@ -1,0 +1,14 @@
+# Hex Wizards — crawler access
+User-agent: *
+Allow: /
+
+# OpenAI search crawler: allows discovery for ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI training crawler: independently controlled from OAI-SearchBot
+# This rule allows GPTBot. Remove this block if you do not want GPTBot access.
+User-agent: GPTBot
+Allow: /
+
+Sitemap: https://hexwizardsteam-creator.github.io/sitemap.xml
